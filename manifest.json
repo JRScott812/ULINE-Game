@@ -4,8 +4,8 @@
 	"manifest_version": 3,
 	"description": "Guess the price of ULINE products!",
 	"icons": {
-		"16": "https://www.uline.com/favicon-16x16.png",
-		"32": "https://www.uline.com/favicon-32x32.png"
+		"16": "Logos/favicon-16x16.png",
+		"32": "Logos/favicon-32x32.png"
 	},
 	"permissions": [
 		"https://www.uline.com/*"
@@ -16,8 +16,8 @@
 	"action": {
 		"default_popup": "popup.html",
 		"default_icon": {
-			"16": "https://www.uline.com/favicon-16x16.png",
-			"32": "https://www.uline.com/favicon-32x32.png"
+			"16": "Logos/favicon-16x16.png",
+			"32": "Logos/favicon-32x32.png"
 		}
 	},
 	"content_scripts": [
