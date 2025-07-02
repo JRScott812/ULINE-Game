@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ULINE Game</title>
+	<script src="Game.js" defer></script>
+</head>
+
+<body>
+	<h1>ULINE Game</h1>
+	<button id="openUline">Open ULINE Website</button>
+	<button id="startGame">New Product</button>
+
+	<div id="guessing">
+		<h2>Guess the Price:</h2>
+		<input type="number" id="productPriceGuessInput" placeholder="Enter guess..." min="0" step="1">
+		<button id="guessPrice">Guess</button>
+	</div>
+
+	<div id="result" style="display:none;">
+		<h2>Result:</h2>
+		<h3 id="guessedPrice"></h3>
+		<h3 id="actualPrice"></h3>
+		<h3 id="matchPercent"></h3>
+	</div>
+</body>
+
+</html>

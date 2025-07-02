@@ -1,2 +1,2 @@
 # ULINE Game
-A game where you guess the price of a randomly selected ULINE product.
+A web-extension game where you guess the price of a randomly selected ULINE product.
